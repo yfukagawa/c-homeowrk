@@ -29,4 +29,19 @@ printf("%d\n", moreNum);
 printf("%f\n", myFloatNum);
 printf("%c\n", myLetter);
 printf("\n");
+printf("The price of this bok is $%f", myFloatNum);
+printf("\n");
+printf("\n");
+
+int x = 12;
+int y = 13;
+int sum = x + y;
+int mult = x * y;
+
+printf("x + y = %d", sum);
+printf("\n");
+printf("x * y = %d", mult);
+printf("\n");
+
+
 }

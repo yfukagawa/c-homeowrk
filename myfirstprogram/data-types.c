@@ -34,4 +34,19 @@ int main() {
     printf(". \n");
     printf("\n");
 
+    // type conversion
+
+    int x = 2;
+    int y = 3;
+    int z = 5;
+    float i = (float) y/x;
+    float j = (float) y/z;
+    double k = (double) z/x;
+    printf("\n");
+    printf("\nConvert int to float or double");
+    printf("\n x=2, y=3, z=5");
+    printf("\n y/x= %f", i);
+    printf("\n y/z= %f", j);
+    printf("\n z/x= %lf", k);
+    printf("\n");
 }

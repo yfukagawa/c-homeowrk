@@ -49,4 +49,6 @@ int main() {
     printf("\n y/z= %f", j);
     printf("\n z/x= %lf", k);
     printf("\n");
+
+    return 0;
 }
